@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Réservation -Restaurant Ousmane Aye Camara</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Restaurant Ousmane Aye Camara</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="reservation.html">Réservation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Réservez une table</h2>
+    <img src="images/table.jpg" alt="Photo d'une table dressée dans le restaurant"
+      style="width:50%; height:auto; border-radius:10px; margin-bottom:20px;">
+    <form id="reservation-form">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="date">Date :</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Heure :</label>
+      <input type="time" id="time" name="time" required>
+
+      <label for="guests">Nombre de personnes :</label>
+      <input type="number" id="guests" name="guests" min="1" required>
+
+      <button type="submit">Réserver</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Restaurant Ousmane Aye Camara. Tous droits réservés.</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
