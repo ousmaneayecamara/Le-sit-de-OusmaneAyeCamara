@@ -1,4 +1,4 @@
-
+alert("Bienvenue sur le sit web de Ousmane Aye Camara");
 document.getElementById('reservation-form')?.addEventListener('submit', function (event) {
     event.preventDefault(); // Empêche l'envoi du formulaire
 
